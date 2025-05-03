@@ -2,17 +2,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Image with Auto Play Sound</title>
+  <title>Full Width and Height Image with Auto Play Sound</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="flex items-center justify-center min-h-screen bg-gray-100 p-4">
+<body class="m-0 p-0 overflow-hidden">
   <img 
     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3TpmCdbS9xDd9h6qefj2QTKV2ro_DY7-Rmh73HBqor5jSqU8Nf2wVOfo&s=10" 
     alt="A detailed image showing a colorful abstract digital art with vibrant shapes and patterns" 
-    class="max-w-full h-auto rounded shadow-lg"
+    class="w-full h-screen object-cover"
   />
   <audio autoplay>
-    <source src="https://files.catbox.moe/ase5b8.mp3" type="audio/mpeg" />
+    <source src="https://files.catbox.moe/j5wqeo.mp3" type="audio/mpeg" />
     Your browser does not support the audio element.
   </audio>
 </body>
